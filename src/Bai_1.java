@@ -50,6 +50,7 @@ public class Bai_1 {
                 f1 = next;
                 next = f0 + f1;
             }
+            sc.close();
         } catch (Exception e) {
             e.printStackTrace();
         }
